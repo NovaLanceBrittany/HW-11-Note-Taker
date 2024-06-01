@@ -50,7 +50,7 @@ As a small business owner, I want to be able to write and save notes in an appli
 
 The following screenshots shows the web application's appearance:
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo.gif)
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-eress-homework-demo.gif)
 
 
 ## The Deployment:
