@@ -34,7 +34,7 @@ As a small business owner, I want to be able to write and save notes in an appli
 - The following API routes should be created:
   - `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
   - `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. 
-  - Each note will create a unique id when it's saved: NPM Package used: 
+  - Each note will create a unique id when it's saved: NPM Package used: uniqid
   - `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. 
     - To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
