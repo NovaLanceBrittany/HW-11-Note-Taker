@@ -50,56 +50,16 @@ As a small business owner, I want to be able to write and save notes in an appli
 
 The following screenshots shows the web application's appearance:
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-eress-homework-demo.gif)
+The Landing Page: ![The Landing Page](./assets/landing-page.png)
 
+The Note Page: ![The Note Page](./assets/note-page.png)
 
 ## The Deployment:
 
-The Repository: [Click Here.](https://githeetwork-API)
+The Repository: [Click Here.](https://github.com/NovaLanceBrittany/HW-11-Note-Taker)
 
-The Render: [Click Here.](hg)
-
-
+The Render: [Click Here.](https://hw-11-note-taker.onrender.com/notes)
 
 
-
-
-
-
-
-
-
-
-
-
-
-## Getting Started
-
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
-
-The following HTML routes should be created:
-
-* `GET /notes` should return the `notes.html` file.
-
-* `GET *` should return the `index.html` file.
-
-The following API routes should be created:
-
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
-
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
-
-## Bonus
-
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
-
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
-
-
-* Application front end must connect to an Express.js back end.
-
-* Application back end must store notes that have a unique id in a JSON file.
-
-* Application allows users to delete notes.
 
 

@@ -53,7 +53,7 @@ app.post('/api/notes', (req, res) => {
   db.push(req.body);
 
   // This takes the body of the note and adds it to the database.
-  writeFile('./db/db/json', JSON.stringify(db), (err) => {
+  writeFile('./db/db.json', JSON.stringify(db), (err) => {
     if (err) {
     console.log("Unable to save note - server issue", err);
 
